@@ -1,9 +1,6 @@
 <script>
-  import { onMount, onDestroy } from 'svelte';
 
-import LoremIpsum from './LoremIpsum.svelte'
-
-	import Introduction from './Introduction.svelte'
+import Introduction from './Introduction.svelte'
 
   let activeStepIndex = 0;
   let observer;
